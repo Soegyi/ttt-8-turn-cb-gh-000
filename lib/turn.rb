@@ -23,7 +23,6 @@ def valid_move?(board,index)
   
   end
 
-
 end
 
 def position_taken?(board,index)
@@ -31,4 +30,7 @@ def position_taken?(board,index)
      return false
   else return true   
   end
+end
+def turn
+puts "Please enter 1-9:"
 end
