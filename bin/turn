@@ -2,6 +2,8 @@
 require_relative '../lib/turn.rb'
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-
+move(board, 4, "X")
+move(board, 0, "O")
+move(board, 1, "X")
 display_board(board)
 turn(board)
